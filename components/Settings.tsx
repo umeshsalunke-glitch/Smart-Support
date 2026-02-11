@@ -51,7 +51,7 @@ const Settings: React.FC = () => {
               <div className="flex justify-between items-center">
                  <div>
                     <h3 className="font-medium text-slate-800">Auto-Resolve High Confidence</h3>
-                    <p className="text-sm text-slate-500">Automatically close tickets with >98% confidence score.</p>
+                    <p className="text-sm text-slate-500">Automatically close tickets with &gt;98% confidence score.</p>
                  </div>
                  <Toggle active={settings.autoResolve} onClick={() => toggle('autoResolve')} />
               </div>
